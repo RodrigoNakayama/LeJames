@@ -2,3 +2,38 @@ html {
   height: 100%;
   width: 100%;
 }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th{
+    background-color: ##ffc4d1;
+    color: #FFA69E;
+  }
+  td{
+    background-color: #efaac4;
+    color: #FAE8EB;
+  }
+  h1 {
+    color: #EC368D;
+  }
+p{
+  color: #F487B6;
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
+  color: #CC59D2;
+  font-size: 20px;
+  font-weight: bold;
+}
+li{
+  color: #CC59D2;
+  font-size: 20px;
+  font-weight: bold;
+}
