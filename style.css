@@ -39,5 +39,6 @@ li{
   font-weight: bold;
 }
 #jogadores{
-  border: black;
+  border: 2px solid black;
+  padding: 5px;
 }
