@@ -20,9 +20,6 @@ html {
     background-color: #efaac4;
     color: #f253b8;
   }
-  h1, h2, h3 {
-    color: #EC368D;
-  }
 p{
   color: #F487B6;
   font-size: 20px;
@@ -37,4 +34,7 @@ li{
   color: #CC59D2;
   font-size: 20px;
   font-weight: bold;
+}
+.titulo{
+  color: #EC368D;
 }
