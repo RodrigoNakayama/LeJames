@@ -1,4 +1,4 @@
-h1, h2, h3{
+.Titulos{
   color: #442B48;
 }
 p{
@@ -6,4 +6,7 @@ p{
 }
 li{
   color: #4F1271;
+}
+body{
+  background-color: #ae8ca3;
 }
