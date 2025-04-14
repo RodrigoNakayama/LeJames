@@ -38,7 +38,9 @@ li{
   font-size: 20px;
   font-weight: bold;
 }
-#jogadores{
-  border: 2px solid black;
-  padding: 3px;
+#titulo{
+color: #F487B6;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Times New Roman';
 }
