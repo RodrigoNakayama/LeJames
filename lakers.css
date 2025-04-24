@@ -1,0 +1,14 @@
+h1{
+    color: #03256C;
+}
+th{
+   color: #03256C;
+}
+background-color{
+    color: #BFD1E5;
+}
+th, td {
+    border: 2px solid #EDAE49;
+    padding: 8px;
+    text-align: center;
+}
