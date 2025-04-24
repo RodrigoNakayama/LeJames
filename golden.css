@@ -1,0 +1,12 @@
+body{
+    background-color: #FFFC99;
+}
+
+th, td {
+    border: 2px solid #62B6CB;
+    padding: 8px;
+    text-align: center;
+}
+h1{
+    color: #62B6CB;
+}
