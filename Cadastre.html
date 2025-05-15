@@ -29,11 +29,43 @@
       <label for="nome">Nome:</label>
       <input type="text" id="nome" name="nome" required>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
+      <label for="endereco">Email:</label>
+      <input type="endereco" id="endereco" name="endereco" required>
 
-      <label for="mensagem">Mensagem:</label>
-      <textarea id="mensagem" name="mensagem" rows="1" required></textarea>
+      <label for="telefone">Mensagem:</label>
+      <input type="telefone" name="telefone" required>
+
+      <label for="produto">O que deseja encomendar</label>
+      <select id="produto" name="produto" required>
+        <option value="">Selecione uma opção</option>
+        <option value="Camisetas">Camisetas</option>
+        <option value="Bonés">Bonés</option>
+        <option value="Bolas">Bolas</option>
+        <option value="Headband">Headband</option>
+        <option value="Tenis">Tenis</option>
+
+        <label for="descricao">Descreva seu pedido</label>
+        <textarea id="descricao" name="descricao" rows="1" required></textarea>
+
+        <label for="pagamento">Forma de pagamento:</label>
+        <select id="pagamento" name="pagamento" required>
+          <option value="">Selecione uma opção</option>
+          <option value="Pix">Pix</option>
+          <option value="Cartao">Cartão de crédito</option>
+          <option value="boleto">boleto</option>
+
+          <label for="data">Data da encomentda:</label>
+          <input type="date" id="data" name="data" required>
+
+          <label for="hora" id="hora" name="hora" required>
+          <input type="time" id="hora" name="hora" required>
+          
+          <label for="entrega">Como deseja receber:</label>
+          <select id="entrega" name="entrega" required>
+            <option value="">Selecione uma opção</option>
+            <option value="entrega">Entrega</option>
+            <option value="retirada">retirada</option>
+      </select>
 
       <button type="submit">Enviar</button>
     </form>
